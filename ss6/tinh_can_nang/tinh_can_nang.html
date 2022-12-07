@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>BMI</th>
+        <th>Interpretation</th>
+    </tr>
+    <tr>
+        <td>can nang:<input id="cannang" type="number" value="cannang"></td>
+        <td>chieu cao:<input id="chieucao" type="number"value="chieucao"></td>
+    </tr>
+    <tr>
+        <td><input type="button"onclick="ketqua()" value="ketqua"></td>
+    </tr>
+</table>
+<h1 id="nhap"></h1>
+</body>
+</html>
+<script>
+function ketqua() {
+    let a = document.getElementById("cannang").value;
+    let b = document.getElementById("chieucao").value;
+    let bmi = (a / (Math.pow(b, 2)));
+    if (bmi<18.5) {
+        document.getElementById("nhap").innerHTML = bmi +"=>underweight";
+    } else if (bmi<25) {
+        document.getElementById("nhap").innerHTML = bmi + "=>nomal";
+    } else if (bmi<30) {
+        document.getElementById("nhap").innerHTML = bmi + "=>overweight";
+    } else {
+        document.getElementById("nhap").innerHTML = bmi + "=>obese";
+    }
+}
+</script>
+

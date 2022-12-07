@@ -7,8 +7,8 @@
 <body>
 <form>
     <h1>Caculator</h1>
-    <input id="sothu1"value="nhapsothu1" type="number">
-    <input id="sothu2"value="nhapsothu2" type="number">  <br>
+    <input id="number1"value="nhapsothu1" type="number">
+    <input id="number2"value="nhapsothu2" type="number">  <br>
     <input type="button"onclick="cong()" value="addition(+)">
     <input type="button"onclick="tru()" value="subtraction(-)">
 </form>
@@ -19,14 +19,14 @@
 </html>
 <script>
     function cong() {
-        let a = +document.getElementById("sothu1").value;
-        let b = +document.getElementById("sothu2").value;
+        let a = +document.getElementById("number1").value;
+        let b = +document.getElementById("number2").value;
         let tong = a + b;
         document.getElementById("result").innerHTML =tong;
     }
         function tru(){
-            let a=+document.getElementById("sothu1").value;
-            let b=+document.getElementById("sothu2").value;
+            let a=+document.getElementById("number1").value;
+            let b=+document.getElementById("number2").value;
             let hieu=a-b;
             document.getElementById("result").innerHTML=hieu;
 

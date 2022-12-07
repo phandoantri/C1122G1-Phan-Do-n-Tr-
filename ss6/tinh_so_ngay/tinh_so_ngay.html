@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><input id="month"type="number"></td>
+        <td>
+            <button onclick="tinhthang()">tinh so ngay</button>
+        </td>
+        <p id="thang"></p>
+    </tr>
+</table>
+</body>
+</html>
+<script>
+    function tinhthang() {
+        let month= +document.getElementById("month").value;
+        if((month>=1)&&(month<=12)) {
+            switch (month) {
+                case 1:
+                case 5:
+                case 7:
+                case 10:
+                    document.getElementById("thang").innerHTML = "thang co 31 ngay";
+                    break;
+                case 2:
+                     document.getElementById("thang").innerHTML = "thang co 28 hoac 29 ngay";
+                     break;
+                default:{
+                     document.getElementById("thang").innerHTML="thang co 30 ngay"};
+            }
+        }
+    }
+</script>

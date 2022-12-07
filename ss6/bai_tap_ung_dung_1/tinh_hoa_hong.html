@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input id="sotien"type="number">
+    <button onclick="kiemtra()">kiemtra</button>
+    <p id="no"></p>
+</form>
+
+</body>
+</html>
+<script>
+    function kiemtra() {
+        let a=document.getElementById("sotien").value;
+        let b=(a*10)/100;
+        document.getElementById("no").innerHTML=b;
+    }
+</script>
