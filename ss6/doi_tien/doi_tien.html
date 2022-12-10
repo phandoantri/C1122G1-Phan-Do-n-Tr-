@@ -5,29 +5,29 @@
     <title>Title</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Amount</th>
-            <th>From Current</th>
-            <th>To Currency</th>
-            <br>
-        </tr>
-        <tr>
-            <td><input id="amount" type="number"></td>
-            <td>
-                <select id="from">
-                    <option value="VND">VND</option>
-                    <option value="USD">USD</option>
-                </select>
-            </td>
-            <td>
-                <select id="to">
-                    <option value="USD">USD</option>
-                    <option value="VND">VND</option>
-                </select>
-                <input type="button" onclick="convert()" value="convert"></td>
-        </tr>
-    </table>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Current</th>
+        <th>To Currency</th>
+        <br>
+    </tr>
+    <tr>
+        <td><input id="amount" type="number"></td>
+        <td>
+            <select id="from">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="to">
+                <option value="USD">USD</option>
+                <option value="VND">VND</option>
+            </select>
+            <input type="button" onclick="convert()" value="convert"></td>
+    </tr>
+</table>
 
 <p id="a"></p>
 </body>
@@ -37,19 +37,16 @@
         let amount = document.getElementById("amount").value;
         let fromCurrent = document.getElementById("from").value;
         let toCurrent = document.getElementById("to").value;
-        if (fromCurrent == "USD" && toCurrent == "VND"){
-            amount=amount*23000;
+        if (fromCurrent == "USD" && toCurrent == "VND") {
+            amount = amount * 23000;
+        } else if (fromCurrent == "VND" && toCurrent == "USD") {
+            amount = amount / 23000;
+        } else if (fromCurrent == "VND" && toCurrent == "VND") {
+            amount = amount;
+        } else {
+            amount = amount;
         }
-        else if (fromCurrent == "VND" && toCurrent == "USD"){
-            amount=amount/23000;
-        }
-        else if (fromCurrent=="VND"&&toCurrent=="VND"){
-            amount=amount;
-        }
-        else {
-            amount=amount;
-        }
-        document.getElementById('a').innerHTML=amount;
+        document.getElementById('a').innerHTML = amount;
 
     }
 

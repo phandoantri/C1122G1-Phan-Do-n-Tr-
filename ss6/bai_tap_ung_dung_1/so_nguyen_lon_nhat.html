@@ -8,7 +8,7 @@
 <form>
     <input id="n1" type="number">
     <input id="n2" type="number">
-    <input id="n3"type="number">
+    <input id="n3" type="number">
     <button onclick="kiemtra()">kiemtra</button>
 </form>
 
@@ -16,14 +16,14 @@
 </html>
 <script>
     function kiemtra() {
-        let a=document.getElementById("n1").value;
-        let b=document.getElementById("n2").value;
-        let c=document.getElementById("n3").value;
-        if(a>b&&a>c){
+        let a = document.getElementById("n1").value;
+        let b = document.getElementById("n2").value;
+        let c = document.getElementById("n3").value;
+        if (a > b && a > c) {
             document.write("a la so lon nhat");
-        }else if(a<b&&b<c){
+        } else if (a < b && b < c) {
             document.write("c la so lon nhat");
-        }else {
+        } else {
             document.write("b la so lon nhat");
         }
     }

@@ -7,7 +7,7 @@
 <body>
 <table>
     <tr>
-        <td><input id="month"type="number"></td>
+        <td><input id="month" type="number"></td>
         <td>
             <button onclick="tinhthang()">tinh so ngay</button>
         </td>
@@ -18,8 +18,8 @@
 </html>
 <script>
     function tinhthang() {
-        let month= +document.getElementById("month").value;
-        if((month>=1)&&(month<=12)) {
+        let month = +document.getElementById("month").value;
+        if ((month >= 1) && (month <= 12)) {
             switch (month) {
                 case 1:
                 case 5:
@@ -28,10 +28,12 @@
                     document.getElementById("thang").innerHTML = "thang co 31 ngay";
                     break;
                 case 2:
-                     document.getElementById("thang").innerHTML = "thang co 28 hoac 29 ngay";
-                     break;
-                default:{
-                     document.getElementById("thang").innerHTML="thang co 30 ngay"};
+                    document.getElementById("thang").innerHTML = "thang co 28 hoac 29 ngay";
+                    break;
+                default: {
+                    document.getElementById("thang").innerHTML = "thang co 30 ngay"
+                }
+                    ;
             }
         }
     }

@@ -7,10 +7,10 @@
 <body>
 <form>
     <h1>Caculator</h1>
-    <input id="number1"value="nhapsothu1" type="number">
-    <input id="number2"value="nhapsothu2" type="number">  <br>
-    <input type="button"onclick="cong()" value="addition(+)">
-    <input type="button"onclick="tru()" value="subtraction(-)">
+    <input id="number1" value="nhapsothu1" type="number">
+    <input id="number2" value="nhapsothu2" type="number"> <br>
+    <input type="button" onclick="cong()" value="addition(+)">
+    <input type="button" onclick="tru()" value="subtraction(-)">
 </form>
 <p id="result"> ket qua:</p>
 
@@ -22,13 +22,14 @@
         let a = +document.getElementById("number1").value;
         let b = +document.getElementById("number2").value;
         let tong = a + b;
-        document.getElementById("result").innerHTML =tong;
+        document.getElementById("result").innerHTML = tong;
     }
-        function tru(){
-            let a=+document.getElementById("number1").value;
-            let b=+document.getElementById("number2").value;
-            let hieu=a-b;
-            document.getElementById("result").innerHTML=hieu;
+
+    function tru() {
+        let a = +document.getElementById("number1").value;
+        let b = +document.getElementById("number2").value;
+        let hieu = a - b;
+        document.getElementById("result").innerHTML = hieu;
 
     }
 </script>
