@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="25c0bf34-29d0-419e-93bb-31b7c6c3fc07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/a_chia_het_cho_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/a_chia_het_cho_b.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/kiem_tra_lon_nho_hon_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/kiem_tra_lon_nho_hon_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/nhap_tuoi_kiem_tra.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/nhap_tuoi_kiem_tra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/so_nguyen_lon_nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/bai_tap_ung_dung_1/so_nguyen_lon_nhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/chu_vi_hinh_tron/chu_vi_hinh_tron.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/chu_vi_hinh_tron/chu_vi_hinh_tron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/chuyen_doi_do_C/chuyen_doi_do_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/chuyen_doi_do_C/chuyen_doi_do_c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/doi_tien/doi_tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/doi_tien/doi_tien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/tinh_can_nang/tinh_can_nang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/tinh_can_nang/tinh_can_nang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/tinh_diem_trung_binh/tinh_diem_trung_binh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/tinh_diem_trung_binh/tinh_diem_trung_binh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/tinh_dien_tich_hinh_tron/dien_tich_hinh_tron.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/tinh_dien_tich_hinh_tron/dien_tich_hinh_tron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/tinh_so_ngay/tinh_so_ngay.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/tinh_so_ngay/tinh_so_ngay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6/ung_dung_may_tinh/ung_dung_may_tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/ung_dung_may_tinh/ung_dung_may_tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vong_lap_for/20_so_dau_tien_trong_day_fibonaci.html" beforeDir="false" afterPath="$PROJECT_DIR$/vong_lap_for/20_so_dau_tien_trong_day_fibonaci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vong_lap_for/bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/vong_lap_for/bang_cuu_chuong.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +58,7 @@
       <workItem from="1670491109145" duration="448000" />
       <workItem from="1670558903113" duration="3152000" />
       <workItem from="1670572706268" duration="6491000" />
-      <workItem from="1670646454438" duration="3534000" />
+      <workItem from="1670646454438" duration="5671000" />
     </task>
     <servers />
   </component>
