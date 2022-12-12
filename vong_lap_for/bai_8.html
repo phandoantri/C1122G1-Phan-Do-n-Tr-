@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="kiemtra()">kiemtra</button>
+
+</body>
+</html>
+<script>
+    function kiemtra() {
+        let a = +prompt("nhapso");
+        let b = Math.floor(Math.random() * a);
+        let c = +prompt("so ban doan");
+        let count = 0;
+        while (count < 4) {
+            if (c == b) {
+                alert("chuc mung");
+                break;
+            } else if (c > b) {
+                c = prompt("lon qua,nhap lai");
+            } else if (c < b) {
+                c = prompt("nho qua nhap lai");
+            }
+            count++
+        }
+
+
+    }
+</script>
