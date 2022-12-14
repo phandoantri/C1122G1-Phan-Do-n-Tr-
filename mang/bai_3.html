@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhap tu:<input id="otrong" type="text">
+<button onclick="kiemtra()" type="button">kiem tra</button>
+<br>
+<p id="name"></p>
+
+<script>
+    function kiemtra() {
+        let english = ["apple", "banana", "orange"];
+        let vietNam = ["tao", "chuoi", "cam"];
+        let string = document.getElementById("otrong").value;
+        let index_english = 0;
+        let total = "";
+        for (let i = 0; i < english.length; i++) {
+            if (string == english[i]) {
+                index_english = i;
+                for (j = 0; j < vietNam.length; j++) {
+                    if (index_english == j) {
+                        total = vietNam[j];
+
+                    }
+                }
+
+            }
+
+        }
+        document.getElementById("name").innerHTML=total
+    }
+
+</script>
+</body>
+</html>
