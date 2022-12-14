@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrayc = [];
+    let arraya = [];
+    for (let i = 0; i < 5; i++) {
+        arraya[i] = +prompt("nhap so");
+    }
+    let arrayb = [];
+    for (let i = 0; i < 5; i++) {
+        arrayb[i] = +prompt("nhap so");
+        arraya.push(arrayb[i]);
+    }
+    arrayc = arraya;
+
+    document.write(arrayc);
+
+
+</script>
+</body>
+</html>

@@ -7,16 +7,17 @@
 <body>
 <script>
     let array=[];
-    for (let i=0;i<10;i++){
-        array[i]=+prompt("nhap so");
+    for (let i=0;i<5;i++){
+        array[i]=prompt("nhap");
     }
-    let max=array[0];
+    let count=0;
     for (let i=0;i<array.length;i++){
-      if (array[i]>max)  {
-          max=array[i];
-      }
+        if(array[i]*0!==0){
+            count++;
+        }
     }
-    document.write(max) ;
+    document.write(count);
 </script>
+
 </body>
 </html>
