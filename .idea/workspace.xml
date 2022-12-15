@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c0bf34-29d0-419e-93bb-31b7c6c3fc07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mang_1/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
       <workItem from="1671029886198" duration="2075000" />
       <workItem from="1671076977974" duration="3298000" />
       <workItem from="1671093142130" duration="87000" />
+      <workItem from="1671093346239" duration="112000" />
     </task>
     <servers />
   </component>
