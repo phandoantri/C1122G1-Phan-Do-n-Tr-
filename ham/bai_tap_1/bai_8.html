@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let temp = [];
+    for (let i = 0; i < 5; i++) {
+        temp[i] = +prompt("nhap so");
+    }
+
+    alert(daoNguoc(temp));
+
+    function daoNguoc(so) {
+        let b = so.length - 1;
+        let c = 0;
+        while (c < b) {
+            let a = so[c];
+            so[c] = so[b];
+            so[b] = a;
+            c++;
+            b--;
+        }
+        return so;
+    }
+</script>
+</body>
+</html>

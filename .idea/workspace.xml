@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c0bf34-29d0-419e-93bb-31b7c6c3fc07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mang_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ham/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML4 File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -69,6 +70,9 @@
       <workItem from="1671076977974" duration="3298000" />
       <workItem from="1671093142130" duration="87000" />
       <workItem from="1671093346239" duration="112000" />
+      <workItem from="1671093746879" duration="5478000" />
+      <workItem from="1671107880074" duration="6624000" />
+      <workItem from="1671155062167" duration="3798000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="foot" type="number"
+       oninput="chuyendoi(this.value)"
+       onchange="chuyendoi(this.value)">
+<p id="ketqua"></p>
+</body>
+</html>
+<script>
+    function chuyendoi(number) {
+        number = parseFloat(number);
+        document.getElementById("ketqua").innerHTML = number * 3.279;
+    }
+</script>
