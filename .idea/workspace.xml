@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c0bf34-29d0-419e-93bb-31b7c6c3fc07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ham/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ham/bai_tap_1/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_1/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_1/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_2/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_2/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ham/bai_tap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_2/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +87,12 @@
       <workItem from="1671093746879" duration="5478000" />
       <workItem from="1671107880074" duration="6624000" />
       <workItem from="1671155062167" duration="3798000" />
+      <workItem from="1671159618219" duration="641000" />
+      <workItem from="1671161283058" duration="651000" />
+      <workItem from="1671168044433" duration="2397000" />
+      <workItem from="1671176797964" duration="1739000" />
+      <workItem from="1671419475546" duration="5556000" />
+      <workItem from="1671429972407" duration="5164000" />
     </task>
     <servers />
   </component>
@@ -80,6 +100,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="447" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671430983374">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="447" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1671430983374" />
     <state x="555" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1670575219046">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

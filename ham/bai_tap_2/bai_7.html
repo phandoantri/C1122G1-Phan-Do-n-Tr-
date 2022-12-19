@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = +prompt("nhap so");
+    let y = +prompt("nhap so");
+    alert(change(x, y));
+
+    function change(a, b) {
+        let c = a;
+        a = b;
+        b = c;
+        return [a, b];
+    }
+</script>
+</body>
+</html>

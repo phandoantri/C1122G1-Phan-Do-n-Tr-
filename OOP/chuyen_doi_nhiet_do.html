@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(doC) {
+            this.doC = doC;
+        }
+
+        doF() {
+            return 1.8 * this.doC + 32;
+        }
+
+        doKenvin() {
+            return this.doC + 273.15
+        }
+    }
+
+    let chuyendoi = new Temperature(25);
+    let chuyendoi1 = chuyendoi.doF();
+    let chuyendoi2 = chuyendoi.doKenvin();
+    alert("độ C sang độ F là" + chuyendoi1);
+    alert("độ C sang độ K là" + chuyendoi2);
+</script>
+
+</body>
+</html>
