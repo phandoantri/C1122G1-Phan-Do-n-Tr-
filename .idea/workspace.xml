@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c0bf34-29d0-419e-93bb-31b7c6c3fc07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ham/bai_tap_1/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_1/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_1/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_1/bai_9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_2/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_2/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ham/bai_tap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ham/bai_tap_2/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_1/bai_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mang_2/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/chuyen_doi_nhiet_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/chuyen_doi_nhiet_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/mo_ta_dien_thoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/mo_ta_dien_thoai.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +80,10 @@
       <workItem from="1671176797964" duration="1739000" />
       <workItem from="1671419475546" duration="5556000" />
       <workItem from="1671429972407" duration="5164000" />
+      <workItem from="1671455745467" duration="71000" />
+      <workItem from="1671455953488" duration="551000" />
+      <workItem from="1671505441975" duration="9532000" />
+      <workItem from="1671527733337" duration="359000" />
     </task>
     <servers />
   </component>
