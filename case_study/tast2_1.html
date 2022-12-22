@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a;
+    let luongRong;
+    let luong=+prompt("nhap luong nhan vien");
+    if(luong>=15000000){
+        a=luong*20/100;
+        luongRong=luong-a;
+    }else if(a>=7000000){
+        a=luong*10/100;
+        luongRong=luong-a;
+    }else {
+        a=luong*5/100;
+        luongRong=luong-a;
+    }
+    alert(a);
+    alert(luongRong);
+
+</script>
+</body>
+</html>

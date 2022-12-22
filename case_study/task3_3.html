@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numerators = [];
+    let denominators = [];
+    for (let i = 0; i < 3; i++) {
+        numerators[i] = +prompt("nhap tu");
+    }
+    for (let j = 0; j < 3; j++) {
+        denominators[j] = +prompt("nhap mau");
+    }
+    let max = numerators[0] / denominators[0];
+    let index = 0;
+    for (let i = 0; i < numerators.length; i++) {
+
+        if (max < numerators[i] / denominators[i]) {
+            max = numerators[i] / denominators[i];
+            index = i;
+        }
+    }
+    alert(max);
+    alert(index);
+
+</script>
+</body>
+</html>

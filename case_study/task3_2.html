@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [];
+    for (let i = 0; i < 5; i++) {
+        a[i] = +prompt("nhap phan tu mang a");
+    }
+    let b = [];
+    for (let j = 0; j < 7; j++) {
+        b[j] = +prompt("nhap phan tu mang b");
+    }
+    let c = [];
+    for (let j = 0; j < b.length; j++) {
+        let flag = true;
+        for (let i = 0; i < a.length; i++) {
+            if (b[j] == a[i]) {
+                flag = false;
+            }
+        }
+        if (flag) {
+            c.push(b[j]);
+        }
+    }
+    alert(c);
+</script>
+
+</body>
+</html>

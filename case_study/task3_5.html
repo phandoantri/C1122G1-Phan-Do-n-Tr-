@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Tên thức uống</th>
+        <th>giá tiền</th>
+        <th>số lượng</th>
+    </tr>
+    <tr>
+        <td>
+            <button id="carot">nước ép cà rốt</button>
+        </td>
+        <td><input type="number" id="giacarot"></td>
+        <td><input type="number" id="soluong"></td>
+    </tr>
+    <tr>
+        <td>
+            <button id="nuocloc">nước lọc</button>
+        </td>
+        <td><input type="number" id="gianuocloc"></td>
+        <td><input type="number" id="numbers"></td>
+    </tr>
+    <tr>
+        <td>
+            <button id="camvat">cam vắt</button>
+        </td>
+        <td><input type="number" id="giacamvat"></td>
+        <td><input type="number" id="num"></td>
+    </tr>
+    <tr>
+        <th>
+            <button id="tong" onclick="total()">total</button>
+        </th>
+        <td id="total"></td>
+    </tr>
+
+
+</table>
+
+
+</body>
+</html>
+<script>
+    function total() {
+        let a = document.getElementById("giacarot").value;
+        let b = document.getElementById("soluong").value;
+        let c = document.getElementById("gianuocloc").value;
+        let d = document.getElementById("numbers").value;
+        let e = document.getElementById("giacamvat").value;
+        let f = document.getElementById("num").value;
+        let g = (a * b) + c * d + e * f;
+        document.getElementById("total").innerHTML = g;
+    }
+
+
+</script>
