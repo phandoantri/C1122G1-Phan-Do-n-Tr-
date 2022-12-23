@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = "aabcc";
+    let b = "adcaa";
+    let c = a.split('');
+    let d = b.split('');
+    let e = [];
+    for (let i = 0; i < c.length; i++) {
+        for (let j = 0; j < d.length; j++) {
+            if (c[i] === d[j]) {
+                e.push(c[i]);
+                c.splice(i, 1);
+                d.splice(j, 1);
+            }
+
+        }
+    }
+    alert(e);
+    for (let i = 0; i < e.length; i++) {
+        let count = 1;
+        for (let j = i + 1; j < e.length; j++) {
+
+            if (e[i] === e[j]) {
+                count++;
+                e.splice(j, 1);
+                j--;
+            }
+        }
+        alert(count + e[i]);
+    }
+
+
+</script>
+</body>
+</html>

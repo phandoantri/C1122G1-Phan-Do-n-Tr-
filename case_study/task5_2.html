@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkSoNguyenTo(number) {
+        let count = 0;
+        for (let i = 0; i < number.length; i++) {
+            for (let j = 0; j < number[i].length; j++) {
+                if (number[i][j] === 2 || number[i][j] === 3) {
+                    count++;
+                } else {
+                    // check(number[i][j])
+                    if (check(number[i][j])) {
+                        count++;
+                    }
+
+                }
+            }
+        }
+
+        return count;
+    }
+
+    function check(number) {
+        let flag = true;
+        for (let j = 2; j <= Math.sqrt(number); j++) {
+            if (number % j === 0) {
+                flag = false;
+                break;
+            }
+        }
+
+        return flag;
+    }
+
+    let n = +prompt("nhap do dai mang cha");
+    let temps = new Array(n);
+    for (let i = 0; i < n; i++) {
+        let m = +prompt("do dai mang con");
+        let mangCon = new Array(m);
+        for (let j = 0; j < m; j++) {
+            mangCon[j] = +prompt("nhap mang con");
+        }
+        temps[i] = mangCon;
+    }
+
+    alert(checkSoNguyenTo(temps));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function giaTriMax(a) {
+        let max=a[0][0];
+for (let i=0;i<a.length;i++){
+    for (let j=0;j<a[i].length;j++){
+        if (max<a[i][j]){
+            max=a[i][j];
+        }
+    }
+}
+return "so lon nhat la"+max;
+    }
+function giaTriMin(b) {
+        let min=b[0][0];
+for(let i=0;i<b.length;i++){
+    for (let j=0;j<b[i].length;j++){
+        if(min>b[i][j]){
+            min=b[i][j];
+        }
+    }
+}
+return "so nho nhat la"+min;
+}
+    let n = +prompt("nhap do dai mang cha");
+    let temps = new Array(n);
+    for (let i = 0; i < n; i++) {
+        let m = +prompt("do dai mang con");
+        let mangCon = new Array(m);
+        for (let j = 0; j < m; j++) {
+            mangCon[j] = +prompt("nhap mang con");
+        }
+        temps[i] = mangCon;
+    }
+
+    alert(giaTriMax(temps));
+    alert(giaTriMin(temps));
+</script>
+</body>
+</html>

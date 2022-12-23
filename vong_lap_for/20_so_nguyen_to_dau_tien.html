@@ -10,7 +10,7 @@
     let countOfPrime = 0;
     while (countOfPrime < 20) {
         let count = 0;
-        if (number == 2 || number == 3) {
+        if (number === 2 || number === 3) {
             document.write(number + " là số nguyên tố" + "<br>");
             countOfPrime++;
             number++;
@@ -22,7 +22,7 @@
                 break;
             }
         }
-        if (count == 0) {
+        if (count === 0) {
             document.write(number + " là số nguyên tố" + "<br>");
             countOfPrime++;
         }
